@@ -27,7 +27,54 @@ const surveyInfo = [
             "cold"
         ],
         key: 'temp'
+    },
+    {
+        icon: MdPets,
+        title: "cats or dogs?",
+        subtitle: "oldie but goodie",
+        options: [
+            "meow",
+            "a long nosed thing"
+        ],
+        key: 'pets'
+    },
+    {
+        icon: SlPeople,
+        title: "introvert or extrover?",
+        subtitle: "meyer's briggs told me i should go into entertainment, hbu?",
+        options: [
+            "ew people",
+            "people"
+        ]
+    },
+    {
+        icon: GiSeaCreature,
+        title: "loch-ness monster?",
+        subtitle: "is nessie just a friend in my imagination?",
+        options: [
+            "yes i love nessie too",
+            "you are crazy"
+        ]
+    },
+    {
+        icon: GiMilkCarton,
+        title: "milk",
+        subtitle: "drink milk?",
+        options: [
+            "it's creamy goodness",
+            "who wants utter juice"
+        ]
+    },
+    {
+       icon: TbFriendsOff,
+       title: "exes",
+       subtitle: "could you be friends?",
+       options: [
+            "yes",
+            "no"
+       ]
     }
+
 ];
 
 const timeToString = (seconds) => {
